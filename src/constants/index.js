@@ -1,7 +1,6 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -9,20 +8,20 @@ import {
   css,
   reactjs,
   redux,
-  tailwind,
+  mui,
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  cargill,
+  linkedin,
+  splunk,
   carrent,
   jobit,
   tripguide,
   threejs,
+  abhishah,
+  anshulgoyal
 } from "../assets";
 
 export const navLinks = [
@@ -42,20 +41,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "FrontEnd Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "BackEnd Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "DevOps Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -85,8 +80,8 @@ const technologies = [
     icon: redux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Material UI",
+    icon: mui,
   },
   {
     name: "Node JS",
@@ -105,10 +100,6 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
   },
@@ -116,55 +107,41 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full Stack Developer",
+    company_name: "Cargill",
+    icon: cargill,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Mar 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Proficiently managed React.js and Node.js technologies for frontend development and MySQL databases for backend tasks, ensuring end-to-end application development.",
+      "Led teams, mentored junior developers, and maintained coding standards, resulting in efficient collaboration and timely project completion.",
+      "Designed microservices architecture to enhance scalability, reduce downtime, and improve overall application performance.",
+      "Conducted performance analysis, implemented optimization strategies, and achieved significant performance improvements for critical components.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Front End Developer",
+    company_name: "LinkedIn - Third Party",
+    icon: linkedin,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jun 2021 - Mar 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Software Developer",
+    company_name: "Splunk - Third Party",
+    icon: splunk,
+    iconBg: "#E6DEDD",
+    date: "Jun 2021 - Mar 2022",
+    points: [
+      "Developed and upgraded the various different open-source SDKs of Splunk, currently hosted on GitHub.",
+      "Designed and released various versions of the SDKs along with giving sessions to the team regarding Splunk Enterprise.",
+      "Updated various different outdated libraries to their latest versions, along with publishing them to official platforms",
     ],
   },
 ];
@@ -172,19 +149,19 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Rohan's an excellent addition to any team. He is a quick learner and quite diligent in any task assigned to him. He would go the extra mile in making sure the task is being finished in the best possible way.",
+    name: "Abhi Shah",
+    designation: "Tech Lead",
+    company: "Crest Data Systems",
+    image: abhishah,
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    name: "Anshul Goyal",
+    designation: "Tech Lead",
+    company: "Cargill",
+    image: anshulgoyal,
   },
   {
     testimonial:
