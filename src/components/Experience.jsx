@@ -7,6 +7,8 @@ import { motion } from "framer-motion";
 
 import "react-vertical-timeline-component/style.min.css";
 
+import { NobleCraftsmanCanvas } from "./canvas";
+
 import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -58,7 +60,10 @@ const ExperienceCard = ({ experience }) => {
 
 const Experience = () => {
   return (
-    <>
+    <div className="relative">
+      <div className="absolute inset-0 z-0">
+        <NobleCraftsmanCanvas />
+      </div>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
           What I have done so far
@@ -78,7 +83,7 @@ const Experience = () => {
           ))}
         </VerticalTimeline>
       </div>
-    </>
+    </div>
   );
 };
 

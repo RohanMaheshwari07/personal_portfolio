@@ -28,12 +28,13 @@ import crest from "./company/crest.png";
 import linkedin from "./company/linkedin.png";
 import splunk from "./company/splunk.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import dxfarm from "./projects/dxfarm.png";
+import pricescience from "./projects/pricescience.png";
+import collect from "./projects/collect.png";
 
-import abhishah from "./abhishah.png";
-import anshulgoyal from "./anshulgoyal.jpg";
+import abhishah from "./people/abhishah.png";
+import anshulgoyal from "./people/anshulgoyal.jpg";
+import rupanshutandon from "./people/rupanshutandon.jpg";
 
 export {
   logo,
@@ -63,9 +64,10 @@ export {
   crest,
   linkedin,
   splunk,
-  carrent,
-  jobit,
-  tripguide,
+  dxfarm,
+  pricescience,
+  collect,
   abhishah,
-  anshulgoyal
+  anshulgoyal,
+  rupanshutandon
 };

@@ -2,6 +2,7 @@ import {
   mobile,
   backend,
   web,
+  creator,
   javascript,
   typescript,
   html,
@@ -14,14 +15,14 @@ import {
   git,
   docker,
   cargill,
-  linkedin,
+  linkedin, 
   splunk,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  dxfarm,
+  pricescience,
+  collect,
   abhishah,
-  anshulgoyal
+  anshulgoyal,
+  rupanshutandon
 } from "../assets";
 
 export const navLinks = [
@@ -51,6 +52,10 @@ const services = [
   {
     title: "DevOps Developer",
     icon: backend,
+  },
+  {
+    title: "MERN Developer",
+    icon: creator,
   },
 ];
 
@@ -90,10 +95,6 @@ const technologies = [
   {
     name: "MongoDB",
     icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
@@ -157,7 +158,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Rohan is an outstanding professional who consistently demonstrates a 'never say no' attitude, always stepping up to the plate to handle any challenge that comes our way. What truly distinguishes him, is his relentless pursuit of excellence.",
     name: "Anshul Goyal",
     designation: "Tech Lead",
     company: "Cargill",
@@ -165,77 +166,78 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Rohan's an excellent addition to any team. He is a quick learner and quite diligent in any task assigned to him. He would go the extra mile in making sure the task is being finished in the best possible way.",
+    name: "Rupanshu Tandon",
+    designation: "SE Associate Director",
+    company: "Cargill",
+    image: rupanshutandon,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "DxFarm",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "DxFarm, a collaborative project in partnership with Heifer, is a revolutionary app designed to empower poultry farmers. It offers a comprehensive solution for managing produce, fostering communication, and connecting farmers.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "express",
         color: "pink-text-gradient",
       },
+      {
+        name: "materialui",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: dxfarm,
   },
   {
-    name: "Job IT",
+    name: "Price Science",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Price Science, redefines trading for Cargill professionals. Leveraging advanced AI algorithms, it provides real-time guidance, enabling traders to make informed decisions swiftly. With its user-friendly interface, Price Science empowers traders to navigate complex markets effortlessly.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "materialui",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: pricescience,
   },
   {
-    name: "Trip Guide",
+    name: "Collect",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive web based solution for facilitating collection of data in real time for our machine learning models. Collect, boasts special features such as `Annotation Wing`, for helping in annotating the videos and images collected.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "okta",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "materialui",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: collect,
   },
 ];
 

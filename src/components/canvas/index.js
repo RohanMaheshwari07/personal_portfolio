@@ -2,6 +2,7 @@ import EarthCanvas from "./Earth";
 import BallCanvas from "./Ball";
 import ComputersCanvas from "./Computers";
 import StarsCanvas from "./Stars";
-import MercatorMapCanvas from "./mercatorMap";
+import OldComputerCanvas from "./OldComputer";
+import NobleCraftsmanCanvas from "./NobleCraftsman";
 
-export { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas, MercatorMapCanvas };
+export { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas, OldComputerCanvas, NobleCraftsmanCanvas };
