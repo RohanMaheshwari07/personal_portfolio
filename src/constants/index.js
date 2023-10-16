@@ -29,15 +29,23 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
+    link: "#about"
   },
   {
     id: "work",
     title: "Work",
+    link: "#work"
   },
   {
     id: "contact",
     title: "Contact",
+    link: "#contact"
   },
+  {
+    id: "avatar-interaction",
+    title: "Avatar Interaction",
+    link: "/avatar-interaction"
+  }
 ];
 
 const services = [
