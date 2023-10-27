@@ -1,4 +1,5 @@
 import logo from "./icon.svg";
+import newLogo from "./new-sticker.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -39,6 +40,7 @@ import rupanshutandon from "./people/rupanshutandon.jpg";
 
 export {
   logo,
+  newLogo,
   backend,
   creator,
   mobile,

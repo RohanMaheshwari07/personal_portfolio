@@ -29,22 +29,23 @@ export const navLinks = [
   {
     id: "about",
     title: "About",
-    link: "#about"
+    link: "/#about"
   },
   {
     id: "work",
     title: "Work",
-    link: "#work"
+    link: "/#work"
   },
   {
     id: "contact",
     title: "Contact",
-    link: "#contact"
+    link: "/#contact"
   },
   {
     id: "avatar-interaction",
     title: "Avatar Interaction",
-    link: "/avatar-interaction"
+    link: "/avatar-interaction",
+    new: true
   }
 ];
 
@@ -158,11 +159,12 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Rohan's an excellent addition to any team. He is a quick learner and quite diligent in any task assigned to him. He would go the extra mile in making sure the task is being finished in the best possible way.",
-    name: "Abhi Shah",
-    designation: "Tech Lead",
-    company: "Crest Data Systems",
-    image: abhishah,
+    "Rohan, an exceptional software engineer known for unwavering commitment to perfection and remarkable attention to detail. His dedication to continuous learning sets an inspiring example for peers.",
+    name: "Rupanshu Tandon",
+    designation: "SE Associate Director",
+    company: "Cargill",
+    image: rupanshutandon,
+    link: "https://www.linkedin.com/in/rupanshu-tandon/",
   },
   {
     testimonial:
@@ -171,15 +173,18 @@ const testimonials = [
     designation: "Tech Lead",
     company: "Cargill",
     image: anshulgoyal,
+    link: "https://www.linkedin.com/in/anshulgoyal91/",
   },
   {
     testimonial:
       "Rohan's an excellent addition to any team. He is a quick learner and quite diligent in any task assigned to him. He would go the extra mile in making sure the task is being finished in the best possible way.",
-    name: "Rupanshu Tandon",
-    designation: "SE Associate Director",
-    company: "Cargill",
-    image: rupanshutandon,
+    name: "Abhi Shah",
+    designation: "Tech Lead",
+    company: "Crest Data Systems",
+    image: abhishah,
+    link: "https://www.linkedin.com/in/abhi4193/",
   },
+ 
 ];
 
 const projects = [

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, newLogo } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -44,7 +44,7 @@ const Navbar = () => {
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            Rohan&nbsp;
+            Rohan Maheshwari&nbsp;
             <span className="sm:block hidden"> | MERN Developer</span>
           </p>
         </Link>
@@ -55,9 +55,16 @@ const Navbar = () => {
               key={nav.id}
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              } hover:text-white text-[18px] font-medium cursor-pointer relative`}
               onClick={() => setActive(nav.title)}
             >
+              {nav.new && (
+                <img
+                  src={newLogo}
+                  className="top-[-5px] right-[-18px] w-[20px] absolute"
+                  key={nav.id}
+                />
+              )}
               <a href={`${nav.link}`}>{nav.title}</a>
             </li>
           ))}
@@ -80,7 +87,7 @@ const Navbar = () => {
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}
-                  className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                  className={`font-poppins relative font-medium cursor-pointer text-[16px] ${
                     active === nav.title ? "text-white" : "text-secondary"
                   }`}
                   onClick={() => {
@@ -88,7 +95,14 @@ const Navbar = () => {
                     setActive(nav.title);
                   }}
                 >
-                  <a href={`${nav.id}`}>{nav.title}</a>
+                  {nav.new && (
+                    <img
+                      src={newLogo}
+                      className="top-[-5px] right-[-18px] w-[20px] absolute"
+                      key={nav.id}
+                    />
+                  )}
+                  <a href={`${nav.link}`}>{nav.title}</a>
                 </li>
               ))}
             </ul>

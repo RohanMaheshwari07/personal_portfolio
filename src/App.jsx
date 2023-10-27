@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
-import Home from "./pages/home.jsx";
-import AvatarInteraction from "./pages/avatarInteraction.jsx";
+import Home from "./pages/Home.jsx";
+import AvatarInteraction from "./pages/AvatarInteraction.jsx";
 
 const App = () => {
   return (
