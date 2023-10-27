@@ -1,4 +1,5 @@
 import logo from "./icon.svg";
+import newLogo from "./new-sticker.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -6,6 +7,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import herobck from "./hero-bck.jpg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -38,6 +40,7 @@ import rupanshutandon from "./people/rupanshutandon.jpg";
 
 export {
   logo,
+  newLogo,
   backend,
   creator,
   mobile,
@@ -45,6 +48,7 @@ export {
   github,
   menu,
   close,
+  herobck,
   css,
   docker,
   git,
