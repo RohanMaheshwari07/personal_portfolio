@@ -29,8 +29,8 @@ const Navbar = () => {
     <nav
       className={`${
         styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-primary" : "bg-transparent"
+      } w-full flex items-center py-5 fixed top-0 z-20 rounded-xl ${
+        scrolled ? "bg-primary bg-opacity-70" : "bg-transparent"
       }`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
@@ -74,14 +74,18 @@ const Navbar = () => {
           <img
             src={toggle ? close : menu}
             alt="menu"
-            className="w-[28px] h-[28px] object-contain"
+            className={`w-[28px] h-[28px] object-contain transition-transform duration-300 ${
+              toggle ? "rotate-90" : "rotate-0"
+            }`}
             onClick={() => setToggle(!toggle)}
           />
 
           <div
             className={`${
-              !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+              !toggle
+                ? "opacity-0 translate-y-[-10px] pointer-events-none"
+                : "opacity-100 translate-y-0 pointer-events-auto"
+            } transition-transform duration-300 p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
               {navLinks.map((nav) => (
